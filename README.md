@@ -1,6 +1,6 @@
 # SimAnnealing
 
-TODO: Write a gem description
+Simulated annealing to solve travelling salesman
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    SimAnnealing::SimAnnealing.new.search([[565,575],[25,185]], 2000, 100000.0, 0.98)
+    2000 - max iterations
+    100000.0 - starting temperature
+    0.98 - temperature drop
 
 ## Contributing
 
